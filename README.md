@@ -6,4 +6,4 @@
 - add the amount of people 
 - calculate!
 
-[alt-text] (tipcalc.png)
+![alt text] (tipcalc.png)
