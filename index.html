@@ -29,14 +29,17 @@
 
          <div class="c">
             <label for="people">People:
-            <input id="people" type="text" name="people" value="1" />
+            <input id="people" type="text" name="people" value="1" required/>
             </label>
          </div>
 
          <div class="d">
+           Per Person:
+           <p>Split: $ <span id='split'></span></p>
             <p>Tip: $<span id="tiptotal"></span></p>
+            <p>Total: $ <span id="billTotal"></span></p>
             <button class="btn" id="calculate">Calculate</button>
-         </div>
+            </div>
       </form>
 
    </div>
